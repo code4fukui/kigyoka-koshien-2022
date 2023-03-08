@@ -11,4 +11,4 @@ for (const d of list) {
   d.aicomment = res;
   await sleep(3000);
 }
-await writeData("kigyoka-koshien-2022-aicomment", list);
+await writeData("kigyoka-koshien-2022-ai", list);
