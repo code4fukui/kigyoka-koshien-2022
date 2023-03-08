@@ -5,6 +5,7 @@ Human Site
 北海道
 北海道起業家甲子園2022
 田中
+humansite.jpg
 
 行動受注集会所
 アントマンズカンパニー
@@ -13,6 +14,7 @@ Human Site
 全国高専
 第33回高専プロコン
 田中
+antmans.jpg
 
 天気痛予防イヤホン
 MY
@@ -21,6 +23,7 @@ MY
 東海
 Tongaliビジネスプランコンテスト2022
 中嶋
+my.jpg
 
 電動化ロケットの実現に向けた低温バッテリーシステム事業
 AGボルタ
@@ -29,6 +32,7 @@ AGボルタ
 Webエントリー等
 
 杉原
+agvolta.jpg
 
 食文化革命
 Earth Savior
@@ -37,6 +41,7 @@ Earth Savior
 信越
 信州未来アプリコンテスト0
 福野
+mushamusha.jpg
 
 Hexellent
 HEXELLENT
@@ -45,6 +50,7 @@ HEXELLENT
 全国高専
 第33回高専プロコン
 福野
+hexellent.jpg
 
 つりーだむ
 ezaki-lab
@@ -53,6 +59,7 @@ ezaki-lab
 全国高専
 第33回高専プロコン
 田中
+tsuri-dam.jpg
 
 ワンクリックでアバターを自動生成するプラットフォームの提供事業
 Avatar Video Studio
@@ -61,6 +68,7 @@ Avatar Video Studio
 近畿
 ミライノピッチ2022
 廣澤
+avatarvs.jpg
 
 PaOn -ぴえんを越えるParkOnline-
 よんかいじっけんしつ
@@ -69,3 +77,4 @@ PaOn -ぴえんを越えるParkOnline-
 全国高専
 第33回高専プロコン
 福野
+yonkai.jpg

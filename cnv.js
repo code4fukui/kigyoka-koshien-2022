@@ -3,7 +3,7 @@ import { writeData } from "https://js.sabae.cc/writeData.js";
 const text = await Deno.readTextFile("src/text.txt");
 const list = [];
 const ss = text.split("\n");
-for (let i = 0; i < ss.length; i += 8) {
+for (let i = 0; i < ss.length; i += 9) {
   /*
   医療診断装置への応用を目指したTlBr放射線センサー
   Human Site
@@ -13,7 +13,7 @@ for (let i = 0; i < ss.length; i += 8) {
   北海道起業家甲子園2022
   田中
   */
-  const names = ["title", "teamname", "school", "content", "area", "areacontest", "mentor"];
+  const names = ["title", "teamname", "school", "content", "area", "areacontest", "mentor", "img"];
   const obj = {};
   for (let j = 0; j < names.length; j++) {
     obj[names[j]] = ss[i + j];
