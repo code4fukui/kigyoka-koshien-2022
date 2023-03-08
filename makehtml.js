@@ -14,6 +14,7 @@ img {
 }
 .abstract, .aicomment {
   white-space: pre-wrap;
+  margin-bottom: 1em;
 }
 </style>`);
 for (const d of list) {
