@@ -20,10 +20,10 @@ img {
 
 const header = doctype + style;
 
-const d2html = (d, head = "h1") => {
+const d2html = (d, head = "h1", imgfirst = true) => {
   const ss = [];
   ss.push(`<${head}>${d.title}</${head}>`);
-  ss.push(`<img src=${d.img}><br>`);
+  if (imgfirst) ss.push(`<img src=${d.img}><br>`);
   ss.push(`チーム: ${d.teamname} （${d.school} / ${d.areacontest} - ${d.area}）<br>`);
   ss.push(`ICTメンター: ${d.mentor}<br>`);
   ss.push(`<div class=abstract>`);
@@ -31,6 +31,7 @@ const d2html = (d, head = "h1") => {
   ss.push(`</div><div class=aicomment>`);
   ss.push(`ChatGPTくんによるアドバイス<br>${d.aicomment}`);
   ss.push(`</div>`);
+  if (!imgfirst) ss.push(`<img src=${d.img}><br>`);
   return ss.join("\n");
 };
 
@@ -52,7 +53,7 @@ for (const d of list) {
   const ss = [];
   ss.push(header);
   ss.push(`<title>${d.title}</title></head><body>`);
-  ss.push(d2html(d, "h1"));
+  ss.push(d2html(d, "h1", true));
   ss.push(footer);
   const name = d.img.substring(d.img.lastIndexOf("/") + 1, d.img.lastIndexOf(".")) + "html";
   await Deno.writeTextFile(`docs/${name}.html`, ss.join("\n"));
